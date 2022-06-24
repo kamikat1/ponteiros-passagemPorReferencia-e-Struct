@@ -13,6 +13,7 @@ int main(){
     printf("%d\n", &*pti); //endereço de memoria de onde *pti está apontando
 
     *pti=20;
-    printf("%d", *pti); //como o ponteiro pti ta acessando a variavel i, isso muda o valor de i pra 20
+    printf("%d\n", *pti); //como o ponteiro pti ta acessando a variavel i, isso muda o valor de i pra 20
+    printf("%d", i); 
 }
 
