@@ -4,7 +4,7 @@ em ordem crescente.*/
 #include <stdio.h>
 #include <stdlib.h>
 
-void ordemCrescente (float v[], int tam);
+void ordemCrescente (float* v, int tam);
 
 int main()
 
@@ -18,7 +18,7 @@ int main()
     return 0;
 }
 
-void ordemCrescente (float v[], int tam){
+void ordemCrescente (float* v, int tam){
     int aux=0;
     for (int i=0; i<tam; i++){
         for (int i=0; i<tam-1; i++){
